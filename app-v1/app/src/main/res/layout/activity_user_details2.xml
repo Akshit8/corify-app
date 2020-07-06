@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DF3332"
+    tools:context=".UserDetails2">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Select the medical conditions\nfrom which you have suffered\nin the past 2 months"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/white"
+        android:textSize="22dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chipGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="10dp"
+        app:singleLine="false"
+        app:chipSpacingHorizontal="10dp"
+        app:chipSpacingVertical="15dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView1">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip1"
+            style="@style/Widget.MaterialComponents.Chip.Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Common Cold"
+            android:textAppearance="@style/chipTextStyle"
+            android:textColor="#FFFFFF"
+            app:checkedIcon="@drawable/check8"
+            app:chipMinTouchTargetSize="10dp"
+            app:chipMinHeight="35dp"
+            app:chipStartPadding="10dp"
+            app:chipEndPadding="10dp"
+            app:chipBackgroundColor="#F18484"/>
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip2"
+            style="@style/Widget.MaterialComponents.Chip.Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="High Fever"
+            android:textAppearance="@style/chipTextStyle"
+            android:textColor="#FFFFFF"
+            app:checkedIcon="@drawable/check8"
+            app:chipMinTouchTargetSize="10dp"
+            app:chipMinHeight="35dp"
+            app:chipStartPadding="10dp"
+            app:chipEndPadding="10dp"
+            app:chipBackgroundColor="#F18484"/>
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip3"
+            style="@style/Widget.MaterialComponents.Chip.Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:chipMinHeight="35dp"
+            android:text="Bronchitis"
+            android:textAppearance="@style/chipTextStyle"
+            android:textColor="#FFFFFF"
+            app:checkedIcon="@drawable/check8"
+            app:chipMinTouchTargetSize="10dp"
+            app:chipStartPadding="10dp"
+            app:chipEndPadding="10dp"
+            app:chipBackgroundColor="#F18484"/>
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip4"
+            style="@style/Widget.MaterialComponents.Chip.Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:chipMinHeight="35dp"
+            android:text="Short breath"
+            android:textAppearance="@style/chipTextStyle"
+            android:textColor="#FFFFFF"
+            app:checkedIcon="@drawable/check8"
+            app:chipMinTouchTargetSize="10dp"
+            app:chipStartPadding="10dp"
+            app:chipEndPadding="10dp"
+            app:chipBackgroundColor="#F18484"/>
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip5"
+            style="@style/Widget.MaterialComponents.Chip.Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:chipMinHeight="35dp"
+            android:text="Headache"
+            android:textAppearance="@style/chipTextStyle"
+            android:textColor="#FFFFFF"
+            app:checkedIcon="@drawable/check8"
+            app:chipMinTouchTargetSize="10dp"
+            app:chipStartPadding="10dp"
+            app:chipEndPadding="10dp"
+            app:chipBackgroundColor="#F18484"/>
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip6"
+            style="@style/Widget.MaterialComponents.Chip.Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:chipMinHeight="35dp"
+            android:text="Immunity Disorder"
+            android:textAppearance="@style/chipTextStyle"
+            android:textColor="#FFFFFF"
+            app:checkedIcon="@drawable/check8"
+            app:chipMinTouchTargetSize="10dp"
+            app:chipStartPadding="10dp"
+            app:chipEndPadding="10dp"
+            app:chipBackgroundColor="#F18484"/>
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip7"
+            style="@style/Widget.MaterialComponents.Chip.Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="pneumonia"
+            app:chipMinHeight="35dp"
+            android:textAppearance="@style/chipTextStyle"
+            android:textColor="#FFFFFF"
+            app:checkedIcon="@drawable/check8"
+            app:chipMinTouchTargetSize="10dp"
+            app:chipStartPadding="10dp"
+            app:chipEndPadding="10dp"
+            app:chipBackgroundColor="#F18484"/>
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip8"
+            style="@style/Widget.MaterialComponents.Chip.Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:chipMinHeight="35dp"
+            android:text="Cough"
+            android:textAppearance="@style/chipTextStyle"
+            android:textColor="#FFFFFF"
+            app:checkedIcon="@drawable/check8"
+            app:chipMinTouchTargetSize="10dp"
+            app:chipStartPadding="10dp"
+            app:chipEndPadding="10dp"
+            app:chipBackgroundColor="#F18484"/>
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip9"
+            style="@style/Widget.MaterialComponents.Chip.Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:chipMinHeight="35dp"
+            android:text="Heart problem"
+            android:textAppearance="@style/chipTextStyle"
+            android:textColor="#FFFFFF"
+            app:checkedIcon="@drawable/check8"
+            app:chipMinTouchTargetSize="10dp"
+            app:chipStartPadding="10dp"
+            app:chipEndPadding="10dp"
+            app:chipBackgroundColor="#F18484"/>
+        <com.google.android.material.chip.Chip
+            android:id="@+id/chip10"
+            style="@style/Widget.MaterialComponents.Chip.Filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:chipMinHeight="35dp"
+            android:text="Chronic condition"
+            android:textAppearance="@style/chipTextStyle"
+            android:textColor="#FFFFFF"
+            app:checkedIcon="@drawable/check8"
+            app:chipMinTouchTargetSize="10dp"
+            app:chipStartPadding="10dp"
+            app:chipEndPadding="10dp"
+            app:chipBackgroundColor="#F18484"/>
+
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/chipGroup">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="@string/healthScore"
+            android:textColor="@android:color/white"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <com.sasank.roundedhorizontalprogress.RoundedHorizontalProgressBar
+                android:id="@+id/healthProgress2"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="300dp"
+                android:layout_height="10dp"
+                android:indeterminate="false"
+                android:layout_marginTop="10dp"
+                android:progress="40"
+                app:backgroundColor="@color/colorAccent"
+                app:progressColor="@color/colorPrimary" />
+
+            <TextView
+                android:id="@+id/scoreTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium"
+                android:text="70%"
+                android:layout_marginStart="5dp"
+                android:textColor="@android:color/white"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/nextButton2"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="25dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/next"
+        android:textAlignment="gravity"
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        app:cornerRadius="8dp"
+        app:icon="@drawable/next"
+        app:iconGravity="textEnd"
+        app:iconPadding="15dp"
+        app:iconSize="20dp"
+        app:iconTint="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

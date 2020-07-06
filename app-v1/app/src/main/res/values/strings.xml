@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Corify</string>
+
+    //Splash
+    <string name="splashTitle">CORIFY</string>
+
+    //User Details 1
+    <string name="message1">Let’s get started by getting to know some basic information about you</string>
+    <string name="nameHint">NAME</string>
+    <string name="ageHint">DD/MM/YYYY</string>
+    <string name="next">Next</string>
+
+    //User Details 3
+    <string name="message3">Current health status</string>
+    <string name="q1">On an average how often do you wash/sanitize your hands in a day?</string>
+    <string name="q2">Do you use public transport on regular basis?</string>
+    <string name="q3">Do you use a mask when in crowdy places?</string>
+    <string name="q4">Have you lately consumed boiled non vegetarian food?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="healthScore">Your health score</string>
+
+</resources>
